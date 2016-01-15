@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "webpack": "webpack",
+    "start": "webpack-dev-server --inline --hot ’-w"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^5.8.23",
