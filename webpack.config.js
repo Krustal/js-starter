@@ -1,5 +1,3 @@
-'use strict';
-
 var webpack = require('webpack');
 
 module.exports = {
@@ -38,4 +36,4 @@ module.exports = {
       { test: /\.sass$/, loader: "style!css!sass?indentedSyntax" }
     ]
   }
-}
+};
