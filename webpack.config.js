@@ -23,7 +23,7 @@ module.exports = {
     moduleDirectories: ['node_modules']
   },
   resolve: {
-    root: [__dirname + "/src/ ", __dirname + "/src/styles" ],
+    root: [__dirname + "/src/", __dirname + "/src/styles" ],
     extensions: ['', '.js', '.coffee', '.jsx', '.css']
   },
   module: {
