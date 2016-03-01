@@ -1,13 +1,15 @@
 {
   "esnext": true,
-  "exversion": 6,
   /* webpack should be taking care of setting strict mode */
-  "module": true
+  "module": true,
   "globals": {
     /* Webpack defined readonly */
     "describe": false,
     "require": false,
     "module": false,
-    "__dirname": false
+    "__dirname": false,
+    /* Browser defined readonly */
+    "document": false,
+    "window": false
   }
 }
